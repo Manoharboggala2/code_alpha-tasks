@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #85cee44c;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: 0;
+    
+
+}
+.container{
+    background-color: rgb(201, 39, 216);
+    min-height: 100px;
+    width: 520px;
+    margin:100px;
+    border: 5px solid black;
+    border-radius: 20px;
+
+}
+
+
+.base{
+    width: 500px;
+    margin: 10px;
+    border-radius:20px;
+    overflow:hidden;
+    display: block;
+    float:none;
+    text-align: center;
+    text-transform:capitalize;
+    padding: 10px;
+    text
+
+
+
+
+}
+.base h4{
+    font-size:26px;
+    text-align: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    box-shadow: 0px 2px #4923beb9;
+    font-weight:normal;
+    color:rgb(116, 116, 184);
+    background: whitesmoke;
+    padding:5px;
+    
+}
+.bolck{
+    width:135px;
+    padding:5px 20px;
+    margin-left:5px 20px;
+    display: inline-block;
+    /* float:left; */
+
+
+}
+.title{
+    font-size: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: normal;
+    letter-spacing:0.5px;
+    color:blue;
+    word-spacing: 2.7;
+}
+input[type=text]:focus{
+    background:#afda837c;
+    border:2px solid  orange;
+
+}
+input[type=button]{
+    width: 150px;
+    margin-left: 150px;
+    margin-top:40px;
+    outline:none;
+    border:none;
+    border-radius:  12px;
+    background-color: lightblue;
+    padding:14px 16px;
+    color:rgb(243, 14, 56);
+    font-size: 17px;
+
+}
+.age{
+    display:block;
+    margin:10px;
+    margin: top 35px;
+    padding-bottom:20px;
+    overflow:hidden;
+    font-size:23px;
+    font-weight:normal;
+    line-height:normal;
+    word-spacing: 2.7px;
+    color:rgb(11, 242, 38);
+    padding:10px;
+
+
+}
